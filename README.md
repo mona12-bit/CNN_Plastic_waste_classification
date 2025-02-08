@@ -65,7 +65,13 @@ A detailed diagram of the CNN architecture will be added later.
 - Tested the model with validation data to ensure reliable classification results..
 
 ### Week 3:
-Details to be updated after progress.
+- Successfully deployed the waste classification model as a public web app using Streamlit Cloud.
+- Ensured seamless integration of the trained CNN model into the web application.
+- Troubleshot and resolved deployment issues (dependency management, TensorFlow setup).
+- Generated a publicly accessible link for real-time classification of images.
+- Prepared a detailed project report covering model architecture, training results, and deployment.
+- Created a PowerPoint presentation (PPT) summarizing the project workflow and findings.
+- The link of website is https://cnnplasticwasteclassification-npcccewwuatmyjyduxema8.streamlit.app/
 
 ## Technologies Employed
 - -Python
