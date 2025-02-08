@@ -59,7 +59,10 @@ A detailed diagram of the CNN architecture will be added later.
 - Explored and understood the dataset structure.
 
 ### Week 2:
-Details to be updated after progress.
+- Successfully trained the waste classification model using CNN.
+- Evaluated the model's performance by analyzing accuracy and loss graphs.
+- Fine-tuned hyperparameters to improve accuracy.
+- Tested the model with validation data to ensure reliable classification results..
 
 ### Week 3:
 Details to be updated after progress.
