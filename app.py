@@ -21,14 +21,14 @@ if uploaded_file is not None:
         img_array = np.expand_dims(img_array, axis=0)  # Add batch dimension
 
         # Debugging print
-        print("Image Array Shape:", img_array.shape)  
+        print("Image Array Shape:", img_array.shape)
 
         # Predict
-        predictions = model.predict(img_array)
+        predictions = model.predict(img_array)  
         print("Raw Model Output:", predictions)  # Debugging
 
         # Use threshold for binary classification
-        threshold = 0.7
+        threshold = 0.5  # Adjust this if needed
         predicted_class = "Recyclable" if predictions[0][0] > threshold else "Organic"
 
         # Display the result
