@@ -8,7 +8,7 @@ import streamlit as st
 model = keras.models.load_model("waste_classifier.h5")
 
 # Class labels (modify as needed)
-class_labels = ["Class 1", "Class 2", "Class 3", "Class 4", "Class 5", "Class 6"]
+class_labels = ["Organic", "Recyclable"]
 
 st.title("♻ Waste Classification App")
 
